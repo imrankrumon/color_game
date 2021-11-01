@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Color Game</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            The great <span id="colorDisplay">RGB(255,255,255)</span> color
+            game
+        </h1>
+        <nav class="stripe">
+            <div class="btn-container">
+                <button id="reset">New colors</button>
+                <span id="message"></span>
+                <div>
+                    <button class="mode">Easy</button>
+                    <button class="selected mode">Hard</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="square-container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </main>
+</body>
+
+</html>
